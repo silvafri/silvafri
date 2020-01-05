@@ -123,9 +123,7 @@ img::-moz-selection {
   letter-spacing: 0em;
   text-transform: none;
   line-height: 1.4em;
-/*  letter-spacing: 2px;*/
   color: #bf948a;
-/*  font-family: 'Cutive Mono',;*/
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -315,7 +313,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 15px;
 }
 

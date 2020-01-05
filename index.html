@@ -223,7 +223,7 @@
                 <br>
                 <br>
                 <br>
-                <video width="100%" height="100%" controls controls poster="src/img/portfolio/digital/MattThumbnail2.jpg">
+                <video width="100%" height="100%" controls poster="src/img/portfolio/digital/MattThumbnail2.jpg">
                   <source src="src/img/portfolio/digital/Matt.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video>
@@ -237,7 +237,7 @@
                 <br>
                 <div class="row">
                     <div class="col-lg-6">
-                        <video width="100%" height="100%">
+                        <video width="100%" height="100%" controls>
                           <source src="src/img/portfolio/digital/CUSFL.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                         </video>
@@ -276,16 +276,16 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 mx-auto">
+            <div class="col-lg-12 col-md-12 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Strategic Communications & Marketing Plans</h2>
                 <p class="item-intro text-muted">Johnstown Strategic Communication Plan</p>
-                <object data="src/img/portfolio/communication/YMCAStratCommPlan.pdf" type="application/pdf" width="100%" height="600px">
+                <iframe src="src/img/portfolio/communication/YMCAStratCommPlan.pdf" width="100%" height="600px">
                     <a href="src/img/portfolio/communication/YMCAStratCommPlan.pdf" target="_blank" class="btn btn-primary">
                         <i class="fa fa-download"></i> YMCAStratCommPlan
-                    </a>
-                </object>
+                    </a>    
+                </iframe>
                 <br>
                 <br>
                 <div class="col-lg-8 mx-auto">
@@ -293,11 +293,11 @@
                     <p>I collaboratively worked within a team of four to develop a nine-part communication plan that conducted a situation analysis that informed our goals, objects, messaging strategy, interpersonal and online tactics for the Johnstown Y.</p>
                     <p class="item-intro text-muted">Sorority and Fraternity Life Fall Strategic Communication Plan</p>
                   </div>
-                <object data="src/img/portfolio/communication/SFLStratCommPlan.pdf" type="application/pdf" width="100%" height="600px">
+                <iframe src="src/img/portfolio/communication/SFLStratCommPlan.pdf" width="100%" height="600px">
                     <a href="src/img/portfolio/communication/SFLStratCommPlan.pdf" target="_blank" class="btn btn-primary">
                         <i class="fa fa-download"></i> SFLStratCommPlan
-                    </a>
-                </object>
+                    </a>  
+                </iframe>
                 <br>
                 <br>
                 <div class="col-lg-8 mx-auto">
@@ -330,11 +330,11 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Campaign</h2>
                 <p class="item-intro text-muted">CU Denver Free Menstrual Products Campaign</p>
-                <object data="src/img/portfolio/campaign/proposal.pdf" type="application/pdf" width="100%" height="600px">
+                <iframe src="src/img/portfolio/campaign/proposal.pdf" width="100%" height="600px">
                     <a href="src/img/portfolio/campaign/proposal.pdf" target="_blank" class="btn btn-primary">
                         <i class="fa fa-download"></i> Proposal
-                    </a>
-                </object>
+                    </a>  
+                </iframe>
                 <br>
                 <br>
                 <div class="col-lg-8 mx-auto"
@@ -416,11 +416,11 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Branding and Market Analysis</h2>
-                <object data="src/img/portfolio/branding/CorporateBranding.pdf" type="application/pdf" width="100%" height="600px">
+                <iframe src="src/img/portfolio/branding/CorporateBranding.pdf" width="100%" height="600px">
                     <a href="src/img/portfolio/branding/CorporateBranding.pdf" target="_blank" class="btn btn-primary">
                         <i class="fa fa-download"></i> CorporateBranding
-                    </a>
-                </object>
+                    </a>  
+                </iframe>
                 <br>
                 <br>
                 <div class="col-lg-8 mx-auto">
@@ -449,6 +449,10 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!--pdf.js-->
+  <script src="vendor/pdfjs/build/pdf.js"></script>
+  <script src="vendor/pdfjs/build/pdf.worker.js"></script>
 
   <!-- Contact form JavaScript -->
   <script src="src/js/jqBootstrapValidation.js"></script>
